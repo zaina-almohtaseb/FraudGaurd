@@ -1,0 +1,31 @@
+# node / web
+node_modules/
+dist/
+.build/
+.out/
+.vite/
+pnpm-lock.yaml
+yarn.lock
+
+# python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+.env.*
+*.egg-info/
+
+# project artifacts / data
+data/*.db
+data/*.db-*
+model/*.pkl
+model/*.joblib
+model/current/
+*.sqlite
+*.log
+
+# OS / editors
+.DS_Store
+.vscode/
+.idea/
